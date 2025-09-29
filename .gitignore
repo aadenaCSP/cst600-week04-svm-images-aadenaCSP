@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environments
+.venv/
+
+# Data (do not push raw datasets)
+data/raw/
+data/processed/
+data/chest_xray/
+data/*.zip
+
+# Large model artifacts
+outputs/best_model.joblib
+
+# Editors
+.vscode/
+.idea/

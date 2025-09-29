@@ -1,0 +1,13 @@
+Test Metrics
+============
+
+              precision    recall  f1-score   support
+
+      normal     1.0000    0.9000    0.9474        20
+   pneumonia     0.9091    1.0000    0.9524        20
+
+    accuracy                         0.9500        40
+   macro avg     0.9545    0.9500    0.9499        40
+weighted avg     0.9545    0.9500    0.9499        40
+
+Accuracy: 0.9500
