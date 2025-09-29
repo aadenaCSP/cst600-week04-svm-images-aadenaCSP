@@ -18,9 +18,6 @@ Run Instructions:
 To train and evaluate the model on the subset:
 python -m src.main --data_dir data/raw --img_size 128 128 --grayscale --probabilities --test_size 0.2 --random_state 42
 
-Optional speed-up for quick tests:
-python -m src.main --data_dir data/raw --img_size 128 128 --grayscale --probabilities --test_size 0.2 --random_state 42 --cv_splits 3 --max_per_class 100
-
 Outputs:
 - outputs/cv_results.csv : GridSearchCV results
 - outputs/test_report.txt : Accuracy, precision, recall, F1 metrics
