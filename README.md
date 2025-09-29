@@ -6,7 +6,7 @@ https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
 A balanced subset of 200 images was selected (100 normal, 100 pneumonia) to ensure reproducibility and manage compute time.
 
 Environment Setup:
-1. Clone this repository: git clone [<your_repo_url>](https://github.com/aadenaCSP/cst600-week04-svm-images-aadenaCSP)
+1. Clone this repository: git clone (https://github.com/aadenaCSP/cst600-week04-svm-images-aadenaCSP)
 2. Create and activate a virtual environment:
    python -m venv .venv
    source .venv/bin/activate  (Mac/Linux)
